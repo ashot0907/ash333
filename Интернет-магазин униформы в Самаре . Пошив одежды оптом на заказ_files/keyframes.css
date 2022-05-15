@@ -1,0 +1,47 @@
+@keyframes mouseWheel {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+}
+
+.mouse-wheel {
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-name: mouseWheel;
+} 
+
+@keyframes circlesOnTheWater {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
+}
+
+.circles-on-the-water {
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-name: circlesOnTheWater;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.rotate {
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+	animation-name: rotate;
+	animation-timing-function: linear;
+}

@@ -1,0 +1,11 @@
+.breadcrumbs.catalog-bread{
+
+}
+.breadcrumbs.catalog-bread li a{
+    color: #7b7b7b;
+}
+.breadcrumbs.catalog-bread li{
+    display: inline-block;
+    margin-right: 3.125rem;
+    white-space: nowrap;
+}

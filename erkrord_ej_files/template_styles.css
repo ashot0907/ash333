@@ -1,0 +1,93 @@
+.shop-item-block__image-wrapper {
+  height: calc(90vh - 160px);
+}
+a.rudownload {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 10px auto;
+    position: relative;
+    display: block;
+    width: auto;
+    text-align: center;
+}
+.only-mobile{
+    display: none !important;
+}
+
+.shop__item--4 .shop__item-image-wrapper .shop__item-image{
+    left: 50% !important;
+    margin: 0 !important;
+    transform: translateX(-50%) !important;
+}
+
+
+
+/*.main-wrapper > *:not(.popup){*/
+/*    position: relative;*/
+/*    z-index: 4;*/
+/*}*/
+
+@media screen and (max-width: 768px) {
+    .hide-mobile{
+        display: none !important;
+    }
+    .only-mobile{
+        display: block !important;
+    }
+    .action-carousel .carousel-item {
+        height: 642px;
+        background: linear-gradient(#f1f2f2, #dbdcde);
+    }
+    .action-carousel .carousel-item .bg{
+        position: static;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin: 10px auto 0;
+        object-fit: inherit;
+    }
+
+    .js-sma-opt-item-need a{
+        margin-left: 10px;
+    }
+}
+
+.main-wrapper > .benefits-block{
+    position: relative;
+    z-index: 3;
+}
+.main-wrapper > .slider-block,
+.main-wrapper > .container,
+.main-wrapper .page-top{
+    position: relative;
+    z-index: 4;
+}
+
+.shop-item-block__text-wrapper.page-top .col-5{
+    padding-right: 20px;
+}
+.shop-item-block__text-wrapper.page-top .col-3{
+    padding: 0 20px;
+}
+
+
+.popup--menu{
+    transition: 0.6s 0.1s, left 0s 0s;
+    position: absolute;
+}
+
+.popup--menu-shop .menu__col ul ul li:last-child{
+    padding-bottom: 0;
+}
+.popup--menu-shop .menu__col ul ul li{
+    white-space: normal;
+    padding-right: 0;
+}
+.popup--menu-shop .menu__col ul ul{
+    overflow: auto;
+    padding-right: 100%;
+}
+
+.intro-catalog:hover{
+    z-index: 10 !important;
+}
